@@ -8,4 +8,4 @@ Just send me your writing on this, and I will post it here. If it's faster, you 
 
 I know proper positioning is that one thing, but perhaps you can explain it better. This is because positioning in doubles is different than singles.
 
-[Click here to find out more about Valuable Knowledge Blog!](/about)
+[Click here to find out more about Sport Insight!](/about)
