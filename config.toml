@@ -1,4 +1,4 @@
-baseurl = "http://www.sportinsight.tk"
+baseurl = "https://www.sportinsight.tk"
 # baseurl = "/"
 
 relativeURLs = true
