@@ -10,6 +10,7 @@ script:
 - aws configure set AWS_ACCESS_KEY_ID $ACCESS_KEY_ID
 - aws configure set AWS_SECRET_ACCESS_KEY $SECRET_ACCESS_KEY
 - aws s3 sync public/ s3://www.sportinsight.tk --acl public-read --delete --exclude 'favicon.ico' --exclude 'apple-touch-icon.png' 
+- aws cloudfront create-invalidation --distribution-id E9BEGRZOA05ZD --paths '/*'
 branches:
     only:
       - master
