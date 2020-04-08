@@ -1,0 +1,45 @@
+baseurl = "http://www.sportinsight.tk"
+# baseurl = "/"
+
+relativeURLs = true
+
+title = "Sport Insight "
+languageCode = "en-us"
+paginate = "10" # Number of posts per page
+theme = "hugo-mainroad-theme"
+# disqusShortname = "" # Enable comments by entering your Disqus shortname
+googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+
+enableEmoji = true
+enableRobotsTXT = true
+
+[Author]
+  name = "Sport Insight"
+  bio = "The author is indeed make up of ordinary matter. Maybe he is also a successful blogger and a decent tennis player, but beyond that nobody knows!"
+  avatar = "img/tennisball.jpg"
+
+[Params]
+  subtitle = "Insight Into Tennis, Basketball, and Other Sports" # Subtitle of your site
+  description = "This is a blog mainly about tennis and basketball, but we also blog about other sports." # Description of your site
+  opengraph = true
+  twitter_cards = false
+  readmore = false # Show "Read more" button in list if true
+  authorbox = true
+  post_navigation = true
+  post_meta = ["date", "categories"] # Order of post meta information
+
+#  mathjax = true # Enable MathJax
+#  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+#  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+
+
+[Params.sidebar]
+  home = "right"   # Configure layout for home page
+  list = "right"   # Configure layout for list pages
+  single = "right" # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist"]
+
+[Params.widgets]
+  recent_num = 5 # Set the number of articles in the "Recent articles" widget
+  tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
